@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+html{
+    font-family: "widsong",cursive;
+}
+/* navbar*/
+#navbar{
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.75rem;
+    height: 70px;
+}
+#navbar ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+#navbar ul li a{
+    padding: 0.5rem;
+}
+#navbar ul li a:hover{
+    background:#336ea2;
+    border-radius: 0.5rem;
+}
+
+/* home section*/
+#home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    padding: 2rem;
+    border-bottom: 1px solid grey;
+}
+#home img{
+    width: 20%;
+    height: auto;
+    max-width: 100%;
+    border-radius: 100%;
+}
+#home .name h2{
+    margin-bottom: 0.3rem;
+    opacity: 0.9;
+}
+#home .name p{
+   opacity: 0.9;
+   margin-bottom: 1.5rem;
+}
+
+/* project*/
+#project{
+    color: #fff;
+    padding: 1rem;
+    background-color: #336ea2;
+}
+#project .items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#project .items .item{
+    width: 33%;
+    text-align: center;
+    padding: 0.5rem;
+
+}
+#project .items .item:hover{
+    color:aqua;
+}
+/* sources*/
+#sources{
+    color: #fff;
+    padding: 1rem;
+    background: #4c4c4c;
+    
+}
+#sources .sources{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border: 0.5px solid #191919;
+    margin-top: 1rem;
+}
+#sources .sources .source{
+    display: flex;
+    text-align: center;
+}
+#sources .sources .source .text{
+    padding: 1rem;
+}
+
+/* contact*/
+#contact{
+    color: #fff;
+    padding: 1rem;
+}
+#contact .contact-form{
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}
+#social ul{
+    list-style-type: none;
+    display: flex;
+    margin-top: 1rem;
+    align-self: center;
+}
+#social ul li a{
+    padding: 1rem;
+    font-size: 2rem;
+}
+#social ul li a:hover{
+    opacity: 0.8;
+}
+

@@ -1,0 +1,19 @@
+#navbar{
+    flex-direction: column;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    overflow: hidden;
+    height: 90px;
+}
+#project .items{
+    flex-direction: column;
+}
+#project .items .item{
+    width: 100%;
+}
+#sources .source .text{
+    display:none;
+}
+#sources .source .images:hover{
+    background: #3333ff;
+}

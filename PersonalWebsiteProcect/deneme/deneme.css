@@ -1,0 +1,12 @@
+.container{
+    color:#fff;
+    background-color: #3f3f3f;
+    width: 100%;
+    height: auto;
+    align-items: center;
+}
+.container .tbl{
+    display:block;
+    justify-content: center;
+}
+
